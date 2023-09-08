@@ -1,0 +1,82 @@
+body{
+    background-image: url("4.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 100% 100%;
+    font-family: cursive;
+    font-size: 14px;
+}
+.full_layout{
+    border-radius: 10px;
+    height:270px;
+    width:450px;
+    margin-top: 180px;
+    background-color: azure;
+    opacity: 1.0;
+}
+.head1{
+    
+    padding: 1px;
+}
+
+.left{
+    text-align: left;
+    margin-right: 33px;  
+    margin-left:2px ;
+    color:green;
+}
+.right{
+    text-align: left;
+    margin-right: 20px; 
+    margin-left: 5px;
+}
+.left1{
+    text-align: left;
+    margin-right: 115px;  
+    margin-left: 2px;
+}
+.right1{
+    text-align: left;
+    margin-right: 80px; 
+    margin-left: 20px;
+}
+input{
+    width: 140px;
+    height: 25px;
+    background-color: azure;
+    border: none;  
+    border-bottom: 1px solid rgb(117, 114, 114);
+    font-family: cursive;
+    font-size: 14px;
+}
+select{
+    width: 130px;
+    height: 25px;
+    background-color: azure;
+    border: none;  
+    border-bottom: 1px solid rgb(117, 114, 114);
+    font-family: cursive;
+    font-size: 14px;
+}
+.convert{
+    width: 300px;
+    height: 30px;
+    margin-right: 17px;
+    background-color: rgb(83, 9, 230);
+    font-size: 14px;
+    border-radius: 8px;
+    color: white;
+    border: rgb(83, 9, 230);
+    margin-bottom: 1px ;
+}
+.convert:active{
+    background-color: rgb(159, 140, 197);
+}
+label{
+    color: rgb(63, 62, 62);
+    font-family: cursive;
+    font-size: 13px; 
+}
+*:focus{
+    outline: none;
+}

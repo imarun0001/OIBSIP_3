@@ -1,0 +1,48 @@
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+        <title>
+            Temperature Calculator
+        </title>
+        <link rel="stylesheet" href="tc_css.css">
+    </head>
+    <body>
+        <center>
+            <div class="full_layout">
+                <div class="head1">
+                <h2 style="color:rgb(59, 8, 160);">Temperature Converter</h2>
+                
+                <div class="input-type">
+                    <div class="input-field">
+                        <label for="degree" class="left1">Degree</label>
+                        <label for="temp-type" class="right1">Type</label><br>
+                        <input type="number" name="degree" id="degree" class="left">
+                        <select name="Temperature" id="temp-type" autocomplete="on" class="right"><br>
+                        <option id="Celsius" value="Celsius">Celsius(&deg;C)</option>
+                        <option id="Fahrenheit" value="Fahrenheit">Fahrenheit(&deg;F)</option>
+                        <option id="Kelvin" value="Kelvin">Kelvin(K)</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="output-type">
+                    <div class="output-field">
+                        <br><br><label for="result" class="left1" >Result</label>
+                        <label for="temp-type1" class="right1">Type</label><br>
+                        <input type="number" name="result" id="result" class="left" disabled>
+                        <select name="Temperature1" id="temp-type1" autocomplete="on" class="right">
+                        <option id="Fahrenheit" value="Fahrenheit">Fahrenheit(&deg;F)</option>
+                        <option id="Celsius" value="Celsius">Celsius(&deg;C)</option>
+                        <option id="Kelvin" value="Kelvin">Kelvin(K)</option>
+                        </select>
+                    </div>
+                </div>
+                <center>
+                    <br><button id="convert" class="convert">CONVERT</button>
+                </center>
+            </div></div>
+        </div>
+        </center>
+        <footer style="color:grey;text-align: right;padding-top:180px">&#169 Copyright 2023 All Rights Reserved by Arunanshu</footer> 
+    </body>
+    <script src="tc_js.js"></script>
+</html>
